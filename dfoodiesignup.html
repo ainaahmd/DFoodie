@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="dfoodiesignup.css">
+    <link rel="stylesheet" href="dfoodielogin.html">
+    <link rel="stylesheet" href="homepage.html">
+    <link rel="stylesheet" href="sectiondfoodie.html">
+  </head>
+  <body>
+    <header>
+      <a href= "dfoodiesignup.html" id="signup">Sign Up</a>|<a href="dfoodielogin.html" id="login">Log In</a></h1>
+    </header>
+
+    <h1>
+      <ul class="nav">
+        <li><a href="homepage.html" id="home">Home   </a></li>
+        <li><a href="dfoodierecipe.html" id="recipes">Recipes</a></li>
+        <li><a href="sectiondfoodie.html" id="section">Section</a></li>
+        <li><a href="dfoodieaboutus.html" id="about">About Us</a></li>
+      </ul>
+    </h1>
+    <form>
+      <div class="box">
+        <img src="header.png" id="image">
+        <p id="head">SIGN UP</p>
+        <br>
+        <label class="lgform">Email</label><br>
+        <input type="text" class="uinpt" name="email"><br><br>
+        <label class="lgform">Name</label><br>
+        <input type="text" class="uinpt" name="name"><br><br>
+        <label class="lgform">Password</label><br>
+        <input type="text" class="uinpt" name="password"><br><br>
+        <label class="lgform">Confirm Password</label><br>
+        <input type="text" class="uinpt" name="cpassword"><br><br>
+        <button type="button" id="signinbtn">SIGN UP</button><br>
+        <p id="cont">Already have an account?<a href="dfoodielogin.html">Log In</a></p>
+      </div>
+    </form>
+
+    <script type="text/javascript">
+      document.getElementById("signinbtn").onclick = function () {
+        location.href = "homepage.html";
+      };
+    </script>
+
+    <div class="footer">
+      <p id="comment"><span class="small">© 2022 D'Foodie. All Rights Reserved</span></p>
+    </div>
+  </body>
+</html>

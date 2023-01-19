@@ -1,0 +1,336 @@
+header{
+  background-color: #b8b7a0;
+  top: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  left: 0;
+  position: fixed;
+  height: 25px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  font-family: "Montserrat";
+  background-image: url(cover.png);
+  background-position: 89%;
+  background-size: 20px 30px;
+  background-repeat: no-repeat;
+}
+
+
+h1{
+  margin-top: 0.7em;
+  left: 0;
+  top: 0;
+  display: flex;
+  position: fixed;
+  margin-left: 0;
+  background-color: #ebdbd1;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-bottom: 20px solid #b8b7a3;
+  background-image: url(header.png);
+  background-position: 50px;
+  background-size: 70px 110px;
+  background-repeat: no-repeat;
+  image-rendering: -webkit-optimize-contrast;
+}
+#home:hover{
+  color:white;
+  text-decoration-line: underline;
+}
+
+#recipes:hover{
+  color:white;
+  text-decoration-line: underline;
+}
+#section:hover{
+  color:white;
+  text-decoration-line: underline;
+}
+
+#about:hover{
+  color:white;
+  text-decoration-line: underline;
+}
+
+body{
+  background-color: #fff4ee;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+html{
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+
+.nav{
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 10%;
+  list-style: none;
+  display: flex;
+}
+
+.nav a{
+  color: #6d473a;
+  display: flex;
+  font-weight: bold;
+  min-width: 5em;
+  margin-left: 70px;
+  margin-top:0;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 17px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nav a:hover {
+  color: white;
+  text-decoration: underline;
+
+}
+
+.footer{
+  position: relative;
+  overflow: auto;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #edecd6;
+  border-top: 20px solid #b8b7a3;
+  background-image: url(header.png);
+  background-position: right;
+  background-size: 50px 80px;
+  background-repeat: no-repeat;
+}
+
+.small{
+  font-size: 12px;
+}
+
+#comment{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #6d473a;
+  text-align: right;
+  padding-right: 40px;
+}
+
+#signup{
+  font-size: 12px;
+  color: white;
+  font-weight: bold;
+  margin-left: 85%;
+  text-align: right;
+}
+
+#login{
+  color: white;
+  font-weight: bold;
+}
+.main {
+  display: flex;
+}
+#recipes {
+  color: white;
+}
+.pics {
+  float: left;
+  padding-left: 3%;
+
+}
+.pics img {
+  padding-top: 20%;
+  margin-left: 30%;
+  width: 140%;
+  height: 50%;
+}
+#name {
+  margin-left: 30%;
+  margin-top: 55%;
+  width:250px;
+	height:50px;
+  color: #BE9B7B;
+  font-size: 28px;
+  padding-top: 5%;
+  padding-bottom: 2%;
+  background-color:  white;
+  border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+  font-weight: bolder;
+  position: inherit;
+  font-family: 'Montserrat Alternates', monospace;
+  top: 350px;
+  float: left;
+  text-align: center;
+  border:2px solid rgb(118, 77, 7);
+}
+.history {
+  text-align: left;
+  font-size: 20px;
+  color: black;
+  float: right;
+  position: inherit;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 3%;
+}
+#history1 {
+	background-color:rgba(255, 255, 255, 1);
+  width:250px;
+	height:50px;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+  border:2px solid rgb(118, 77, 7);
+  margin-right: 27%;
+  margin-top: 14%;
+  text-align: center;
+  font-size: 28px;
+  float: right;
+  padding-top: 1.3%;
+  color: #BE9B7B;
+  font-weight: bolder;
+  font-family: 'Montserrat Alternates', monospace;
+}
+.history p {
+  margin-top: 32%;
+  margin-left: 20%;
+  padding: 5%;
+  background-color: #d7c3bdfb;
+  color: rgb(95, 77, 7);
+  border-radius: 10px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+border-radius: 10px;
+border-style: double;
+}
+
+.side {
+  display: flex;
+  justify-content: space-evenly;
+  border: 4px solid #854442;
+  border-radius: 40px;
+  margin: 20px;
+}
+.main {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.yum {
+  width: 100%;
+  height: 20%;
+  background-color: #FFF4EE;
+
+}
+.yum h5 {
+  font-family: 'Brush Script MT', cursive;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 50px;
+  color: #5e4134;
+  font-style: normal;
+  background-image: url(marble.jpeg);
+	position: inherit;
+	margin: 2% 0%;
+  padding: 2%;
+}
+.yum img {
+  position: absolute;
+  width: 10%;
+  height: 10%;
+  padding-left: 12%;
+}
+#more {
+  font-weight: bold;
+color: rgb(81, 81, 230);}
+.ingredients {
+  text-align: left;
+  font-size: 20px;
+  color: black;
+  float: left;
+  padding-left: 3%;
+  margin-top: 6%;
+}
+#ing {
+  font-size: 30px;
+  padding: 4%;
+  float: left;
+  text-align: center;
+  color:#BE9B7B;
+  font-weight: bolder;
+  font-family: 'Montserrat Alternates', monospace;
+  background-color:rgba(255, 255, 255, 1);
+	width:250px;
+	height:50px;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+  border:2px solid rgb(118, 77, 7);
+  margin-left: 5%;
+  margin-top: 9%;
+  text-align: center;
+}
+
+.list {
+  margin-top: 45%;
+margin-left: 10%;
+ background-color: #a68175fb;
+  color: aliceblue;
+  border-radius: 10px;
+  padding: 5% 10%;
+}
+.steps {
+  text-align: left;
+  font-size: 20px;
+  color: black;
+  float: right;
+  position: inherit;
+  margin-right: 10%;
+  margin-left: 20%;
+  margin-top: 9%;
+}
+#stp {
+  text-align: center;
+  font-size: 30px;
+  padding: 2%;
+  color:#BE9B7B;
+  font-weight: bolder;
+  font-family: 'Montserrat Alternates', monospace;
+  background-color:rgba(255, 255, 255, 1);
+	width:250px;
+	height:50px;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+  border:2px solid rgb(118, 77, 7);
+  text-align: center;
+  font-size: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-weight: bolder;
+  font-family: 'Montserrat Alternates', monospace;
+}
+.prepareSteps {
+  margin-top: 7%;
+  background-color: #a68175fb;
+  color: aliceblue;
+  border-radius: 10px;
+  padding: 5% 10%;
+}

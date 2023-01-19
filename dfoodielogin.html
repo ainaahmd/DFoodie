@@ -1,0 +1,59 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>login page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="dfoodielogin.css">
+    <link rel="stylesheet" href="homepage.html">
+    <title>Button</title>
+<body>
+
+  </head>
+  <body>
+
+    <div class=border>
+    <div class="table"></div>
+    <img src="header.png" alt="logo"
+      style="width:110px;height:170px;">
+    <span  class="signin">Sign In</span>
+    <span  class="login">Login</span>
+    <span  class="message">If you have account with us, please log in.</span>
+    <br>
+
+    <div class=text>
+    <label for="email"><b>Email*</b></label><br>
+    <input type="text" placeholder="Enter email" name="email" required>
+    </div>
+
+    <div class=pass>
+    <label for="password"><b>Password*</b></label><br>
+    <input type="password" placeholder="Enter Password" name="password" required>
+    </div>
+
+    <div class=btn>
+    <button type="button"  id ="btnLogin">LOGIN</button></div>
+    <span class="psw"> <a href="dfoodiesignup.html">Forgot password?</a></span>
+
+    <div class=button>
+    <iframe id="social_login_frame"
+    title="Social Login Frame"
+    src="https://social-login.oxiapps.com/widget?site=mbg-fruit.myshopify.com&amp;vt=103&amp;parenturl=https://mbg.com.my/account/login"
+    style="width:108%;max-width:108%;padding-top:2px;margin-bottom:5px;border:1px;height:96px;"
+    scrolling="no">
+    </iframe>
+
+</div>
+  <div>
+  <span  class="account">Don’t have an account?</span>
+  <span class="signup"> <a href="dfoodiesignup.html">Sign up</a></span>
+  </div>
+  <script type="text/javascript">
+    document.getElementById("btnLogin").onclick = function () {
+      location.href = "homepage.html";
+    };
+  </script>
+
+</body>
+</html>

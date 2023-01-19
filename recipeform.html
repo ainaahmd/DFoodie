@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="recipeform.css">
+    <link rel="stylesheet" href="dfoodielogin.html">
+    <link rel="stylesheet" href="homepage.html">
+    <link rel="stylesheet" href="sectiondfoodie.html">
+  </head>
+  <body>
+    <header>
+      <a href= "dfoodiesignup.html" id="signup">Sign Up</a>|<a href="dfoodielogin.html" id="login">Log In</a></h1>
+    </header>
+
+    <h1>
+      <ul class="nav">
+        <li><a href="homepage.html" id="home">Home   </a></li>
+        <li><a href="dfoodierecipe.html" id="recipes">Recipes</a></li>
+        <li><a href="sectiondfoodie.html" id="section">Section</a></li>
+        <li><a href="dfoodieaboutus.html" id="about">About Us</a></li>
+      </ul>
+    </h1>
+    <br><br><br><br><br><br>
+    <p>RECIPE FORM</p>
+    <form>
+      <div class="recipeform">
+        <label class="rpform">Recipe Name</label><br>
+        <input type="text" class="uinpt1" name="rpname"><br><br>
+        <label class="rpform">Image</label><br>
+        <input type="file" class="uinpt1" id="in" name="image" accept="image/png, image/jpeg"><br><br>
+        <label class="rpform">No of Servings</label><br>
+        <input type="text" class="uinpt1" name="noservings"><br><br>
+        <label class="rpform">Ingredients</label><br>
+        <input type="text" class="uinpt1" name="ingredients"><br><br>
+        <label class="rpform">Procedure</label><br>
+        <input type="text" class="uinpt1" name="procedure"><br><br>
+        <label class="rpform">Preparation Time</label><br>
+        <input type="text" class="uinpt1" name="preptime"><br><br>
+        <label class="rpform">Cooking Time</label><br>
+        <input type="text" class="uinpt1" name="cooktime"><br><br>
+        <label class="rpform">Name</label><br>
+        <input type="text" class="uinpt1" name="name"><br><br>
+        <button type="button" id="cancelbtn">CANCEL</button>
+        <button type="button" id="submitbtn">SUBMIT</button><br>
+      </div>
+    </form>
+
+    <script type="text/javascript">
+      document.getElementById("cancelbtn").onclick = function () {
+        location.href = "dfoodieaboutus.html";
+      };
+      document.getElementById("submitbtn").onclick = function () {
+        location.href = "homepage.html";
+      }
+    </script>
+
+    <div class="footer">
+      <p id="comment"><span class="small">© 2022 D'Foodie. All Rights Reserved</span></p>
+    </div>
+
+  </body>
+</html>
